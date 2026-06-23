@@ -2,20 +2,25 @@
 
 Este repositorio entrega pastas prontas para copiar e colar em projetos reais. Cada pasta contem regras, skills reais importadas de repositorios publicos, boas praticas do framework e instrucoes em portugues para pessoas leigas.
 
-## Como usar (Setup Multi-Agente)
+## Passo a Passo: Como usar na sua máquina
 
-O repositório já vem pré-configurado com auto-discovery para as principais IAs e inclui as **Regras Globais da Equipe** (Zero comentários, documentação obrigatória, etc.).
+Para que os seus projetos fiquem com a inteligência artificial configurada com as regras da equipe, siga este passo a passo:
 
-1. Escolha a pasta do seu tipo de projeto (ex: `NEXT`).
-2. Copie todo o conteúdo dessa pasta para a raiz do seu projeto.
-3. **Como cada IA lê estas regras automaticamente:**
+1. **Clone este repositório** em algum lugar do seu computador:
+   ```bash
+   git clone https://github.com/BernardoBrugg/NEO-Skills-Set.git
+   ```
+2. **Abra o repositório** e escolha a pasta correspondente ao framework do seu projeto atual (ex: se vai programar em Next.js, entre na pasta `NEXT`).
+3. **Copie todo o conteúdo** (incluindo as pastas e arquivos ocultos como `.cursorrules` e `.agents`) que está *dentro* dessa pasta específica.
+4. **Cole tudo na raiz do seu projeto real**.
+5. **Pronto! Como cada IA lê estas regras automaticamente:**
    - **Cursor**: Lê automaticamente o arquivo `.cursorrules` na raiz. Não precisa de prompt inicial.
    - **Windsurf**: Lê automaticamente o arquivo `.windsurfrules`.
    - **VS Code (GitHub Copilot)**: Lê o arquivo `.github/copilot-instructions.md`.
    - **Claude Code CLI**: É recomendado o prompt inicial: `Leia AGENTS.md e .agents/workspace-rules.md`.
    - **Antigravity / Codex / Outros**: Vasculham a raiz e detectam o `.cursorrules` ou `AGENTS.md`. No primeiro prompt, diga: *Leia AGENTS.md antes de começar*.
 
-Com isso feito, os agentes já seguirão estritamente a arquitetura e acionarão as skills necessárias.
+Com isso feito, os agentes já seguirão estritamente a arquitetura, regras de zero comentários e acionarão as skills necessárias do seu framework.
 
 ## Qual pasta escolher
 
