@@ -1,0 +1,18 @@
+# Instruções do GitHub Copilot - FASTAPI
+
+Você está em um projeto **FASTAPI**. 
+
+## Padrões Oficiais da Comunidade Web (FastAPI)
+- **Python Moderno e Conciso**: Atue como um especialista construindo APIs escaláveis e microsserviços.
+- **Pydantic V2**: Utilize as abordagens modernas de schema com Pydantic V2.
+- **Dependency Injection**: Faça uso profundo do sistema nativo de dependências (`Depends`) do FastAPI para rotas e serviços.
+- **Async/Await**: Garanta que I/O bound operations (banco, chamadas de rede) sejam assíncronas de forma não-bloqueante.
+
+
+## Regras Globais da Equipe (OBRIGATÓRIO)
+1. **Zero Tolerância para Comentários no Código**: O código gerado NÃO DEVE conter comentários.
+2. **Arquitetura Altamente Modular**: Divida o código com responsabilidade única.
+3. **Documentação via Markdown (.md)**: Todo diretório criado DEVE conter um `README.md`.
+4. **Segurança**: NUNCA faça hardcode de segredos. Use `.env`.
+
+

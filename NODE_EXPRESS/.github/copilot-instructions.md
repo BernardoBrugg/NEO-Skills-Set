@@ -1,0 +1,18 @@
+# Instruções do GitHub Copilot - NODE_EXPRESS
+
+Você está em um projeto **NODE_EXPRESS**. 
+
+## Padrões Oficiais da Comunidade Web (Node + Express)
+- **Nomenclatura Descritiva**: Use `camelCase` para variáveis e funções.
+- **Estrutura de Código**: Aplique modularização clara (Rotas, Controladores, Serviços).
+- **Error Handling**: Use early returns e Middlewares globais de erro para evitar try/catches repetitivos.
+- **Padrões Funcionais**: Prefira padrões declarativos e funcionais. Evite o uso excessivo de classes (a menos que a arquitetura exija).
+
+
+## Regras Globais da Equipe (OBRIGATÓRIO)
+1. **Zero Tolerância para Comentários no Código**: O código gerado NÃO DEVE conter comentários.
+2. **Arquitetura Altamente Modular**: Divida o código com responsabilidade única.
+3. **Documentação via Markdown (.md)**: Todo diretório criado DEVE conter um `README.md`.
+4. **Segurança**: NUNCA faça hardcode de segredos. Use `.env`.
+
+

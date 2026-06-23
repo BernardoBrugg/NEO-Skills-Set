@@ -1,0 +1,19 @@
+# Instruções do GitHub Copilot - DJANGO
+
+Você está em um projeto **DJANGO**. 
+
+## Padrões Oficiais da Comunidade Web (Django)
+- **Fat Models, Thin Views**: A lógica de negócios deve residir nos Models ou Managers customizados. As Views devem focar no request/response.
+- **Disciplina de Queries**: Sempre use `select_related` e `prefetch_related` para evitar problemas N+1.
+- **Segurança de Banco de Dados**: Exija transações atômicas para operações de múltiplos passos.
+- **Error Handling**: É proibido usar blocos genéricos `except: pass`.
+- **DRF**: Se usar Django REST Framework, prefira ViewSets e Serializers ao invés de construir respostas JSON manualmente.
+
+
+## Regras Globais da Equipe (OBRIGATÓRIO)
+1. **Zero Tolerância para Comentários no Código**: O código gerado NÃO DEVE conter comentários.
+2. **Arquitetura Altamente Modular**: Divida o código com responsabilidade única.
+3. **Documentação via Markdown (.md)**: Todo diretório criado DEVE conter um `README.md`.
+4. **Segurança**: NUNCA faça hardcode de segredos. Use `.env`.
+
+
